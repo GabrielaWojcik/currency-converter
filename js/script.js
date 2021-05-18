@@ -11,17 +11,17 @@ formElement.addEventListener("submit", (event) => {
 
     let result;
 
-    if (currencyElement.value === "eur") {
+    if (currencyElement.value === "EUR") {
         result = amount / 4.53;
     }
 
-    if (currencyElement.value === "usd") {
+    if (currencyElement.value === "USD") {
         result = amount / 3.73;
     }
 
-    if (currencyElement.value === "gbp") {
+    if (currencyElement.value === "GBP") {
         result = amount / 5.26;
     }
 
-    resultElement.innerText = result.toFixed(2);
+    resultElement.innerText = `${amountElement.value}PLN = ${result.toFixed(2)}${currencyElement.value}`;
 });
