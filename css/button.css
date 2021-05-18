@@ -1,0 +1,16 @@
+.form__button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 42, 106);
+    border-radius: 20px;
+    margin: 5px 20px;
+    border: none;
+}
+
+.form__button--submit {
+    margin: 5px 50px 5px 50px;
+}
+
+
+.form__button--reset {
+    margin: 5px 50px 5px 50px;
+}
