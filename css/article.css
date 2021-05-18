@@ -16,24 +16,6 @@
     
 }
 
-.form__fieldset {
-    color: black;
-    border: none;
-    border-radius: 20px;
-}
-
-.form__legend {
-    text-align: center
-}
-
-.form__div {
-    padding: 5px;
-    border-radius: 20px;
-    color: #b42a6a;
-    font-size:x-large;
-    font-weight: 700;
-}
-
 .submit {
     color: rgb(255, 255, 255);
     background-color: rgb(180, 42, 106);
