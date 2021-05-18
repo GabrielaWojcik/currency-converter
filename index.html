@@ -8,6 +8,9 @@
     <title>Kalkulator walut</title>
     <link href="css/style.css" rel="stylesheet">
     <link href="css/article.css" rel="stylesheet">
+    <link href="css/button.css" rel="stylesheet">
+    <link href="css/form.css" rel="stylesheet">
+    <link href="css/input.css" rel="stylesheet">
     <script src="js/script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
@@ -40,11 +43,11 @@
             </p>
             <p>*pole wymagane</p>
         </fieldset>
-        <button class="js-submit submit">
-            <div class="buttonSubmit">Przelicz</div>
+        <button type="submit" class="form__button js-submit">
+            <div class="form__button form__button--submit">Przelicz</div>
         </button>
-        <button type="reset" class="js-reset reset">
-            <div class="buttonReset">Wyczyść</div>
+        <button type="reset" class="form__button js-reset">
+            <div class="form__button--reset">Wyczyść</div>
         </button>
         </button>
         <p class="form__result">
