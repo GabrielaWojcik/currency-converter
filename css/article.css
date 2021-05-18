@@ -16,26 +16,4 @@
     
 }
 
-.submit {
-    color: rgb(255, 255, 255);
-    background-color: rgb(180, 42, 106);
-    border-radius: 20px;
-    margin-right: 20px;
-    border: none;
-}
-
-.buttonSubmit {
-    margin: 5px 50px 5px 50px;
-}
-
-.reset {
-    color: rgb(255, 255, 255);
-    background-color: rgb(180, 42, 106);
-    border-radius: 20px;
-    border: none;
-}
-
-.buttonReset {
-    margin: 5px 50px 5px 50px;
-}
 
