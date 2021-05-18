@@ -1,0 +1,63 @@
+.body {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-size: 400;
+    text-align: center;
+    color: hsl(261deg 6% 14%);
+    margin: 50px auto 0;
+    max-width: 1000px;
+    min-width: 200px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(360deg, rgb(218, 117, 164) 10%, rgba(255,255,255,1) 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.form__fieldset {
+    color: black;
+    border: none;
+    border-radius: 20px;
+}
+
+.form__legend {
+    text-align: center
+}
+
+.form__div {
+    padding: 5px;
+    border-radius: 20px;
+    color: #b42a6a;
+    font-size:x-large;
+    font-weight: 700;
+}
+
+.submit {
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 42, 106);
+    border-radius: 20px;
+    margin-right: 20px;
+    border: none;
+}
+
+.buttonSubmit {
+    margin: 5px 50px 5px 50px;
+}
+
+.reset {
+    color: rgb(255, 255, 255);
+    background-color: rgb(180, 42, 106);
+    border-radius: 20px;
+    border: none;
+}
+
+.buttonReset {
+    margin: 5px 50px 5px 50px;
+}
+
+.label__input{
+    border-radius: 20px;
+    padding: 2px 10px;
+}
